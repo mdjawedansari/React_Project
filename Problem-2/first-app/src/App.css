@@ -1,0 +1,40 @@
+.main {
+  background-color: lightpink;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  margin-top: 120px;
+}
+.center{
+  justify-content: center;
+  text-align: center;
+  background-color: peachpuff;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+.btn_div{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.btn_div button {
+  margin: auto;
+  width: 120px;
+  padding: 10px;
+  font-size: larger;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.btn_div button:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
+h1 {
+  margin-top: 80px;
+}
